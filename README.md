@@ -29,4 +29,5 @@ Goodbye!
 
 ```
 <img src onerror="([][Symbol.hasInstance]=eval,[]instanceof{[Symbol.hasInstance](){\u0061\u006c\u0065\u0072\u0074(0)}})">
+<img src onerror="let _=alert+0,x='alert'+_[14]+_[15];Array.prototype[Symbol.hasInstance]=eval;x instanceof []">
 ```
